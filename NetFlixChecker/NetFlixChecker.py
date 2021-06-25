@@ -34,13 +34,13 @@ def main():
 
             #Checking...
             if res.geturl() == 'https://www.netflix.com/browse':
-                print(f'[+] Working {Acc}')
+                print(f'[+] Working: {Acc}')
                 br.open('https://www.netflix.com/SignOut?lnkctr=mL')
                 AccWorkingList.append(line[0]+':'+line[1])
             
             else:
                 Acc+=1
-                print(f'[-] Not Working {Acc}')
+                print(f'[-] Not Working: {Acc}')
         except:
             print('Something went wrong...')
             print('You can contact the maker Discord-Chara98#9898')
