@@ -13,9 +13,9 @@ This Repositories contains two files a Netflix checker and Netflix checker with 
 
 # Module Used
 Note: Program has a feature to install modules too...
-- [y] mechanize
-- [y] time
-- [y] os
-- [y] sys
-- [y] tkinter
+- mechanize
+- time
+- os
+- sys
+- tkinter
 **DISCLAIMER**: By using this software, you agree that you are responsible for your actions.
