@@ -18,4 +18,5 @@ Note: Program has a feature to install modules too...
 - os
 - sys
 - tkinter
-**DISCLAIMER**: By using this software, you agree that you are responsible for your actions.
+
+## **DISCLAIMER**: By using this software, you agree that you are responsible for your actions.
