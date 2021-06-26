@@ -1,5 +1,5 @@
 ## NetFlix Account Checker
-This Repositories contains two files a Netflix checker and Netflix checker with proxy, So the difference is if you make more then 5-6 requests to Netflix continuous with your own ip then Netflix server will identify you as a bot and block your ip for few hours if you use Netflix checker with proxy then you have to provide a txt file which will contain some ip:ports you can easily get some txt files from google i will leave some examples of files you have to provide in those programs
+This Repositories contains two files a Netflix checker and Netflix checker with proxy, So the difference is if you make more than 5-6 requests to Netflix continuous with your own ip then Netflix server will identify you as a bot and block your ip for few hours if you use Netflix checker with proxy then you have to provide a txt file which will contain some ip:ports you can easily get some txt files from google i will leave some examples of files you have to provide in those programs from that list your ips will be changing every request
 
 # Feature
 - [x] Python3
