@@ -21,6 +21,7 @@ def main():
     files = filedialog.askopenfile(mode='r', title='Load Email:Password',filetype=((".txt","*.txt"),("All files","*.txt")))
     proxy = filedialog.askopenfile(mode='r', title='Load Ip:Port',filetype=((".txt","*.txt"),("All files","*.txt")))
     for line,proxi in zip(files,proxy):
+        proxi=proxi.replace('\n','')
         try:
             try:
                 prox+=1
