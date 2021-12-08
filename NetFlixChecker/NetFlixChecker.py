@@ -43,7 +43,7 @@ def main():
                 print(f'[-] Not Working: {Acc}')
         except:
             print('Something went wrong...')
-            print('You can contact the maker Discord-Chara98#9898')
+            print('You can contact the maker Discord-Chara98#2932')
             time.sleep(1)
             sys.exit()
     #Print the working account
