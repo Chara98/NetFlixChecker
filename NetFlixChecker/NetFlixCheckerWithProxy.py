@@ -9,7 +9,18 @@ br.set_handle_redirect(True)
 br.set_handle_referer(True)
 br.set_handle_robots(False)
 br.addheaders = [('User-agent', 'Firefox')]
-
+print('NetFlixChecker  ---  Chara98')
+print('1.Run Checker')
+print('2.Install modules')
+user = str(input('--> '))
+if user == '1':
+    main()
+elif user == '2':
+    os.system('pip install mechanize')
+    os.system('pip3 install mechanize')
+    print()
+    print('Install Complete')
+    print('Run the program now')
 
 def main():
     os.system('cls')
@@ -53,22 +64,9 @@ def main():
                 print(f'[-] Not Working: {Acc}    proxy: {prox}')
         except:
             print('Something went wrong...')
-            print('You can contact the maker Discord-Chara98#9898')
+            print('You can contact the maker Discord-Chara98#2932')
             time.sleep(1)
             sys.exit()
     #Print the working account
     for i in AccWorkingList:
         print(i)
-
-print('NetFlixChecker  ---  Chara98')
-print('1.Run Checker')
-print('2.Install modules')
-user = str(input('--> '))
-if user == '1':
-    main()
-elif user == '2':
-    os.system('pip install mechanize')
-    os.system('pip3 install mechanize')
-    print()
-    print('Install Complete')
-    print('Run the program now')
